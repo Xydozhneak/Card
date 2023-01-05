@@ -1,0 +1,42 @@
+@import url(normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+
+.conteiner{
+    margin:15% 15% ;
+    font-family: 'Roboto';
+
+    width:800px ;
+    
+    background-color: brown;
+}
+.card{
+    float: left;
+    /* overflow: hidden; */
+    text-align: center;
+    margin: 20px;
+    width: 200px;
+    height: 226px;
+    background-color: #E0E0E0;
+
+}
+.card img{
+    width: 130px;
+    height: 130px;
+    /* margin-left:  35px; ; */
+
+
+}
+.card h1{
+    height: 22px;
+    overflow: hidden;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+.card p {
+    height: 36px;
+    overflow: scroll;
+    font-weight: 400;
+    font-size: 14px;
+}
